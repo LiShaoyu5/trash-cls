@@ -1,7 +1,15 @@
 import streamlit as st
 
+# page config
+st.set_page_config(
+    page_title='技术介绍',
+    page_icon='💻',
+    layout='wide'
+)
+
 st.title('使用技术')
 
+st.write('本节将介绍我们在项目中使用到的技术和具体的操作流程。')
 
 
 st.subheader('Sentence-Transformers')
