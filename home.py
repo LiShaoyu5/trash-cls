@@ -8,7 +8,7 @@ import torch
 # page config
 st.set_page_config(
     page_title='垃圾分类查询系统',
-    page_icon='🚮',
+    page_icon=':wastebasket:',
     layout='wide'
 )
 
