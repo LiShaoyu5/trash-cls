@@ -5,6 +5,13 @@ import numpy as np
 import torch
 
 
+# page config
+st.set_page_config(
+    page_title='垃圾分类查询系统',
+    page_icon='🚮',
+    layout='wide'
+)
+
 def softmax(x):
     x = [i.cpu().numpy() for i in x]
     return np.exp(x) / np.sum(np.exp(x), axis=0)
