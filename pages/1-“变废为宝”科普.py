@@ -2,12 +2,12 @@ import streamlit as st
 
 # page config
 st.set_page_config(
-    page_title='相关研究',
+    page_title='“变废为宝”科普',
     page_icon='📚',
     layout='wide'
 )
 
-st.title('相关研究介绍')
+st.title('“变废为宝”科普')
 
 
 col1, col2 = st.columns(2)
